@@ -1,0 +1,22 @@
+{
+  "name": "remote-logger",
+  "version": "1.0.0",
+  "description": "A simple NodeJS remote logger using mux-demux pattern",
+  "main": "client.js",
+  "type": "module",
+  "scripts": {
+    "start:server": "node src/server.js",
+    "start:client": "node src/client.js src/generateData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altamashattari/remote-logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Altamashattari/remote-logger/issues"
+  },
+  "homepage": "https://github.com/Altamashattari/remote-logger#readme"
+}
